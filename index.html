@@ -3,143 +3,307 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Zimai Gao's AIP Portfolio</title>
+  <title>Zimai Gao — AIP Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <div class="portfolio">
+  <nav id="navbar">
+    <a href="#home" class="nav-wordmark">Zimai Gao</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#project1">Futures Thinking</a></li>
+      <li><a href="#project2">Conceptual Design</a></li>
+      <li><a href="#project3">Refined Prototype</a></li>
+      <li><a href="#reflections">Reflections</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-menu-btn" id="menuBtn" aria-label="Menu">&#9776;</button>
+  </nav>
 
-    <!-- Navigation -->
-    <nav id="navbar">
-      <span class="nav-name">Advanced Interface Prototyping Portfolio</span>
-      <ul class="nav-links">
-        <li><a href="#work">Work</a></li>
-        <li><a href="#reflections">Reflections</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-
-    <!-- Hero -->
-    <section class="hero" id="home">
-      <p class="eyebrow">Assignment 2 — UX Design</p>
-      <h1 class="hero-title">Futures Design</h1>
-      <p class="hero-sub">Excamining the futures and technologies regarding the problem space of <em> entertainment and culture<em></em></p>
-    </section>
-
-    <!-- Hero image placeholder -->
-    <div class="placeholder-img hero-img">
-      <span class="placeholder-label">Hero image / project preview</span>
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <p class="hero-eyebrow reveal-up" style="--delay:0ms">Advanced Interface Prototyping · 2026</p>
+      <h1 class="hero-title">
+        <span class="hero-line reveal-up" style="--delay:80ms">Zimai</span>
+        <span class="hero-line italic reveal-up" style="--delay:160ms">Gao</span>
+      </h1>
+      <p class="hero-sub reveal-up" style="--delay:240ms">UX designer interested in how technology can create <em>meaningful</em> and <em>accessible</em> experiences for diverse communities.</p>
+      <div class="hero-scroll-hint reveal-up" style="--delay:400ms">
+        <span>Scroll to explore</span>
+        <div class="scroll-line"></div>
+      </div>
     </div>
+    <div class="hero-tag-cloud">
+      <span class="tag floating" style="--fx:1">Entertainment</span>
+      <span class="tag floating" style="--fx:2">Culture</span>
+      <span class="tag floating" style="--fx:3">Mixed Reality</span>
+      <span class="tag floating" style="--fx:4">Futures</span>
+      <span class="tag floating" style="--fx:5">Conversational AI</span>
+      <span class="tag floating" style="--fx:6">Accessibility</span>
+    </div>
+  </section>
 
-    <!-- Project Overview -->
-    <section id="work">
-      <div class="section-label">Project overview</div>
-      <h2 class="section-heading">The brief &amp; your contribution</h2>
-      <p class="section-body">Describe what the project was, what the team was asked to design, and specifically what I contributed. Add process images, sketches, or wireframes below.</p>
-
-      <div class="two-col">
-        <div class="placeholder-card">
-          <span class="card-tag">Process</span>
-          <span class="card-heading">Research &amp; discovery</span>
+  <!-- About -->
+  <section class="section about-section" id="about">
+    <div class="section-inner">
+      <div class="about-layout">
+        <div class="about-left">
+          <p class="label">About</p>
+          <h2 class="section-title">My approach<br><em>to design</em></h2>
         </div>
-        <div class="placeholder-card">
-          <span class="card-tag">Process</span>
-          <span class="card-heading">Ideation &amp; design</span>
-        </div>
-        <div class="placeholder-card">
-          <span class="card-tag">Outcome</span>
-          <span class="card-heading">Final prototype</span>
-        </div>
-        <div class="placeholder-card">
-          <span class="card-tag">Outcome</span>
-          <span class="card-heading">Key design decisions</span>
+        <div class="about-right">
+          <p class="body-lg">I approach design by first understanding the people, contexts, and challenges that shape a problem space before proposing solutions. Rather than focusing solely on technology, I value research, collaboration, and iterative design as tools for uncovering insights and creating experiences that genuinely respond to user needs.</p>
+          <p class="body-md mt">Throughout this semester, I worked across projects exploring emerging technologies, extended reality, and conversational AI. These experiences strengthened my understanding of research-driven design, collaborative problem solving, and the importance of continually refining ideas through feedback and testing.</p>
+          <div class="theme-pill">
+            <span class="theme-pill-label">Problem Space</span>
+            <span class="theme-pill-name">Entertainment &amp; Culture</span>
+            <p class="theme-pill-desc">All three projects explored different aspects of entertainment and culture: through futures thinking, emerging immersive technologies, and conversational AI design.</p>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Reflections -->
-    <section id="reflections">
-      <div class="section-label">Reflections</div>
-      <h2 class="section-heading">What I took away from this project</h2>
-      <p class="section-body">Four areas of reflection as required for the submission. Each will become a short written piece in the final portfolio.</p>
-
-      <div class="reflections-grid">
-        <div class="reflection-item">
-          <div class="reflection-number">01</div>
-          <div class="reflection-title">My future as a UX professional</div>
-          <div class="reflection-desc">Thoughts on my role and direction in the design industry.</div>
+  <!-- Project 1 -->
+  <section class="section project-section" id="project1">
+    <div class="project-banner">
+      <span class="project-num-bg">01</span>
+      <div class="project-banner-inner">
+        <span class="project-type-label">Futures Thinking</span>
+        <h2 class="project-title-main">Entertainment &amp; Culture —<br><em>Future Scenarios</em></h2>
+      </div>
+    </div>
+    <div class="section-inner">
+      <div class="contribution-row">
+        <div class="contribution-tag">My contribution</div>
+        <ul class="contribution-list">
+          <li>Conducted research into current trends and drivers influencing entertainment and cultural experiences</li>
+          <li>Identified emerging developments and supporting evidence within the problem space</li>
+          <li>Proposed a future scenario exploring the rise of robotic entertainers in zoos and aquariums</li>
+          <li>Developed a detailed future forecast exploring media fatigue and the increasing value of physical, communal cultural experiences</li>
+          <li>Contributed research findings that informed group discussion and scenario development</li>
+        </ul>
+      </div>
+      <div class="image-pair">
+        <figure class="project-figure">
+          <img src="futures2.jpg" alt="Futures Thinking — Media Fatigue Forecast" class="project-img" loading="lazy" />
+          <figcaption>Forecast 3: Media Fatigue + Analogue Retract</figcaption>
+        </figure>
+        <figure class="project-figure">
+          <img src="futures1.jpg" alt="Futures Thinking — Robotic Entertainers Scenario" class="project-img" loading="lazy" />
+          <figcaption>Preferred Future: Rise of Robotic Entertainers in Zoos and Aquariums</figcaption>
+        </figure>
+      </div>
+      <div class="reflection-card">
+        <div class="reflection-card-head">
+          <span class="reflection-index">Reflection</span>
+          <h3 class="reflection-title">Learning Through Collaboration</h3>
         </div>
-        <div class="reflection-item">
-          <div class="reflection-number">02</div>
-          <div class="reflection-title">AI's impact on design work</div>
-          <div class="reflection-desc">How AI tools shaped the process and what that means going forward.</div>
-        </div>
-        <div class="reflection-item">
-          <div class="reflection-number">03</div>
-          <div class="reflection-title">Teamwork &amp; contributions</div>
-          <div class="reflection-desc">My role in the team, and what I observed in your teammates.</div>
-        </div>
-        <div class="reflection-item">
-          <div class="reflection-number">04</div>
-          <div class="reflection-title">Collaborative delivery</div>
-          <div class="reflection-desc">Approaches that made (or could have made) the project run smoothly.</div>
+        <div class="reflection-body">
+          <p>One of the most valuable lessons I learned from this project was how differently people understand the same problem space. Every team member brought knowledge from different sources, interests, and experiences. While I was familiar with some aspects of AI-driven entertainment, other team members introduced examples and perspectives that I had never encountered before.</p>
+          <p>This experience highlighted why collaboration is so important in UX design. No individual researcher can fully understand a complex problem space alone. Through discussion, sharing research, and challenging assumptions, teams can build a broader and more informed understanding of users and emerging opportunities. Moving forward, I see collaborative research and knowledge sharing as essential parts of effective UX practice.</p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Team -->
-    <section id="team">
-      <div class="section-label">Team</div>
-      <h2 class="section-heading">About this project</h2>
-      <p class="section-body">A short note about the team, the course context, and any acknowledgements.</p>
+  <div class="star-divider">✦ ✦ ✦</div>
 
-      <div class="team-grid">
-        <div class="team-card">
-          <div class="avatar" id="avatar-1">YN</div>
-          <div class="team-name">Zimai Gao</div>
-          <div class="team-role">UX Designer</div>
+  <!-- Project 2 -->
+  <section class="section project-section alt-bg" id="project2">
+    <div class="project-banner">
+      <span class="project-num-bg">02</span>
+      <div class="project-banner-inner">
+        <span class="project-type-label">Conceptual Design</span>
+        <h2 class="project-title-main">Mixed Reality<br><em>Cultural Participation</em></h2>
+      </div>
+    </div>
+    <div class="section-inner">
+      <div class="contribution-row">
+        <div class="contribution-tag">My contribution</div>
+        <ul class="contribution-list">
+          <li>Contributed to the development of a Mixed Reality cultural participation concept</li>
+          <li>Helped define how immersive technologies could support cultural accessibility</li>
+          <li>Developed concept documentation and design exploration materials</li>
+          <li>Investigated interaction methods, accessibility considerations, and user participation within non-screen environments</li>
+        </ul>
+      </div>
+      <figure class="project-figure wide-figure">
+        <img src="conceptual.jpg" alt="Extended Reality Concept Canvas" class="project-img" loading="lazy" />
+        <figcaption>Extended Reality Concept Canvas — MR Cultural Participation Design</figcaption>
+      </figure>
+      <div class="reflection-card">
+        <div class="reflection-card-head">
+          <span class="reflection-index">Reflection</span>
+          <h3 class="reflection-title">Designing for Specific Users</h3>
         </div>
-        <div class="team-card">
-          <div class="avatar" id="avatar-2">TM</div>
-          <div class="team-name">Amy Tran</div>
-          <div class="team-role">UX Designer</div>
-        </div>
-        <div class="team-card">
-          <div class="avatar" id="avatar-3">TM</div>
-          <div class="team-name">Jinwen Luan</div>
-          <div class="team-role">UX Designer</div>
-        </div>
-        <div class="team-card">
-          <div class="avatar" id="avatar-4">TM</div>
-          <div class="team-name">Vi Nguyen</div>
-          <div class="team-role">UX Designer</div>
+        <div class="reflection-body">
+          <p>This project challenged me to think about the design of non-screen technologies and the importance of defining users clearly. Our concept explored how Mixed Reality could allow people to participate in cultural events they could not physically attend, whether due to mobility, geography, or disability constraints.</p>
+          <p>Feedback on the concept encouraged us to think more carefully about who the system was designed for and what specific cultural experiences it would support. Initially, the proposal attempted to address a broad audience, but I realised that future-focused concepts can quickly become unrealistic when they are not grounded in the needs of a clearly defined user group.</p>
+          <p>This taught me that successful design begins with understanding a specific audience rather than designing for everyone. In future projects, I would narrow the target audience earlier in the design process so that design decisions, accessibility strategies, and technological choices can be developed around real user needs rather than general assumptions.</p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Contact -->
-    <section id="contact">
-      <div class="section-label">Contact</div>
-      <h2 class="section-heading">Get in touch</h2>
-      <p class="section-body">Interested in my work? Feel free to reach out via email or LinkedIn.</p>
+  <div class="star-divider">✦ ✦ ✦</div>
+
+  <!-- Project 3 -->
+  <section class="section project-section" id="project3">
+    <div class="project-banner">
+      <span class="project-num-bg">03</span>
+      <div class="project-banner-inner">
+        <span class="project-type-label">Conversational AI</span>
+        <h2 class="project-title-main">Agentic AI<br><em>Event Planning Chatbot</em></h2>
+      </div>
+    </div>
+    <div class="section-inner">
+      <div class="contribution-row">
+        <div class="contribution-tag">My contribution</div>
+        <ul class="contribution-list">
+          <li>Primary editor and builder of the Voiceflow prototype</li>
+          <li>Translated team research and design decisions into conversation flows and system logic</li>
+          <li>Implemented interaction pathways and chatbot behaviours within Voiceflow</li>
+          <li>Produced and edited the final presentation and demonstration video</li>
+          <li>Refined the chatbot experience based on testing and feedback</li>
+        </ul>
+      </div>
+      <figure class="project-figure wide-figure">
+        <img src="prototype.jpg" alt="Chatbot Diagram — Playbook Walkthrough" class="project-img" loading="lazy" />
+        <figcaption>Chatbot Diagram — Playbook Walkthrough (Pre-Voiceflow Prototype)</figcaption>
+      </figure>
+      <div class="reflection-card">
+        <div class="reflection-card-head">
+          <span class="reflection-index">Reflection</span>
+          <h3 class="reflection-title">Iterative Prototyping</h3>
+        </div>
+        <div class="reflection-body">
+          <p>Initially, our team designed the chatbot with a concise and highly professional tone. We wanted interactions to be efficient and direct, particularly when helping users plan events.</p>
+          <p>However, through testing and role-playing different user scenarios, we discovered that the chatbot felt distant and unapproachable, especially for users who had little experience organising events. While the information was accurate, the experience lacked warmth and encouragement.</p>
+          <p>In response, I adjusted the conversational tone to feel more welcoming and supportive. Small changes such as conversational language, emojis, and expressive written cues helped make interactions feel more approachable while still maintaining clarity and professionalism.</p>
+          <p>This experience demonstrated that UX design is not only about functionality but also about how users feel during an interaction. Iterative prototyping allowed us to identify issues that were not obvious during initial design and refine the experience based on user needs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="star-divider">✦ ✦ ✦</div>
+
+  <!-- Reflections -->
+  <section class="section reflections-section alt-bg" id="reflections">
+    <div class="section-inner">
+      <p class="label">AI Reflection &amp; Declaration</p>
+      <h2 class="section-title">Using AI as a<br><em>Design Tool</em></h2>
+
+      <div class="ai-tools-row">
+        <span class="ai-chip">ChatGPT</span>
+        <span class="ai-chip">Google AI</span>
+        <span class="ai-chip">Claude</span>
+      </div>
+
+      <p class="ai-intro">Throughout this semester, I used ChatGPT and Google AI across research, ideation, and documentation. Through these experiences, I found that the value of AI in design exists on a spectrum. The further AI moves from supporting the design process towards making decisions for the designer, the more cautious we need to be about its role.</p>
+
+      <!-- Carousel -->
+      <div class="ai-carousel" id="aiCarousel">
+        <div class="carousel-track-wrap">
+          <div class="carousel-track" id="carouselTrack">
+
+            <!-- Slide 1 -->
+            <div class="carousel-slide">
+              <div class="slide-status appropriate">
+                <span class="status-dot"></span>Appropriate Use
+              </div>
+              <div class="slide-num">01 / 03</div>
+              <h3 class="slide-title">AI as an <em>Assistant</em></h3>
+              <p class="slide-body">The most valuable use of AI throughout my projects was as a tool for accelerating research and exploration. During the Futures Thinking project, AI helped me identify emerging trends, locate supporting information, and quickly gain an overview of unfamiliar topics. This allowed me to spend less time searching for starting points and more time analysing the significance of those trends within the context of entertainment and culture.</p>
+              <p class="slide-body">However, I found that the real value did not come from the information AI provided, but from the questions it helped me ask. The future scenarios that emerged were not created by AI alone; they were developed through discussion with my team members, who each brought different knowledge, perspectives, and experiences to the project. Some of the most valuable insights came from information discovered by other team members that neither AI nor I had initially considered.</p>
+              <p class="slide-body">This experience taught me that AI is most effective when it helps designers explore a problem space more efficiently while still relying on collaboration and human interpretation to create meaningful insights.</p>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-slide">
+              <div class="slide-status caution">
+                <span class="status-dot"></span>Use With Caution
+              </div>
+              <div class="slide-num">02 / 03</div>
+              <h3 class="slide-title">AI as a <em>Collaborator</em></h3>
+              <p class="slide-body">As projects became more design-focused, I began using AI less as a source of information and more as a tool for generating possibilities. It was useful for exploring alternative concepts, challenging assumptions, and helping overcome moments where ideas felt limited or repetitive. Rather than providing answers, it became a way of exposing myself to different directions that I may not have considered independently.</p>
+              <p class="slide-body">At the same time, I noticed that many AI-generated suggestions often felt broad, safe, or detached from the specific users we were designing for. This became particularly apparent during the Mixed Reality cultural participation project. Feedback revealed that our concept was trying to address too many users at once, making it difficult to determine whether the experience would genuinely meet anyone's needs. Reflecting on this, I realised that AI often encourages thinking at a broad conceptual level, whereas effective UX design requires moving towards increasingly specific user groups, contexts, and design decisions.</p>
+              <p class="slide-body">This taught me that while AI can expand creative exploration, meaningful design still depends on the designer's ability to narrow possibilities and focus on the people the design is intended to serve.</p>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-slide">
+              <div class="slide-status inappropriate">
+                <span class="status-dot"></span>Inappropriate Use
+              </div>
+              <div class="slide-num">03 / 03</div>
+              <h3 class="slide-title">AI as a <em>Decision Maker</em></h3>
+              <p class="slide-body">The biggest limitation I discovered is that AI should never become the primary decision-maker within the design process. Throughout the semester, I occasionally encountered AI-generated information that appeared convincing but lacked sufficient evidence or context. While these inaccuracies were usually easy to identify, they highlighted how easily false information could influence a project if accepted without verification.</p>
+              <p class="slide-body">I also found that AI tends to surface the most visible and widely discussed information. If I had relied solely on AI-generated research, many of my projects would likely have been shaped by the same commonly available perspectives rather than the diverse viewpoints that emerged through teamwork, user feedback, and iterative prototyping.</p>
+              <p class="slide-body">The chatbot project reinforced this lesson further. Our initial design decisions were based on what seemed logically correct: a concise, direct, and professional communication style. However, once we began testing and imagining how different users would experience the chatbot, we discovered that the interaction felt distant and unwelcoming. The solution did not come from generating more responses through AI; it came from reflecting on user experience and reconsidering what people actually needed from the interaction. AI can generate content, suggestions, and possibilities, but it cannot replace the human judgement required to evaluate how people feel, behave, and respond to a design.</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Spectrum bar -->
+        <div class="spectrum-bar">
+          <span class="spectrum-label left">✦ Appropriate</span>
+          <div class="spectrum-track">
+            <div class="spectrum-thumb" id="spectrumThumb"></div>
+          </div>
+          <span class="spectrum-label right">Inappropriate ✦</span>
+        </div>
+
+        <!-- Controls -->
+        <div class="carousel-controls">
+          <span class="swipe-hint">Swipe to navigate</span>
+          <div class="carousel-dots">
+            <button class="dot active" data-idx="0" aria-label="Slide 1"></button>
+            <button class="dot" data-idx="1" aria-label="Slide 2"></button>
+            <button class="dot" data-idx="2" aria-label="Slide 3"></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Key takeaway -->
+      <div class="takeaway-block">
+        <div class="takeaway-star">✦</div>
+        <h4 class="takeaway-head">Key Takeaway</h4>
+        <p class="takeaway-body">Through these projects, I developed a stronger understanding that AI is most useful when it supports the design process rather than directing it. The most successful outcomes occurred when AI was used to accelerate research and exploration, while collaboration, user feedback, and critical reflection guided decision making. As I continue developing as a UX designer, I intend to use AI as a tool that expands opportunities for learning and creativity without allowing it to replace the human-centred thinking that sits at the core of UX design.</p>
+      </div>
+
+      <div class="future-role-block">
+        <p class="label" style="margin-top: 3rem;">Looking ahead</p>
+        <h3 class="section-title sm">My future as a UX professional</h3>
+        <p class="body-lg" style="max-width: 680px;">This semester reinforced that UX design is fundamentally about understanding people. Whether conducting futures research, designing immersive technologies, or developing conversational interfaces, effective design depends on listening to users, collaborating with others, and continually refining ideas through feedback. As I continue developing as a UX designer, I aim to strengthen my research, prototyping, and accessibility skills while maintaining a human-centred approach to emerging technologies.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section contact-section" id="contact">
+    <div class="section-inner contact-inner">
+      <h2 class="contact-title">Let's<br><em>connect</em></h2>
+      <p class="body-md contact-sub">Interested in my work? Feel free to reach out.</p>
       <div class="contact-links">
         <a href="mailto:zimai0515@email.com" class="contact-btn">Email me</a>
-        <a href="https://www.linkedin.com/in/zimai-gao-21a240201/" target="_blank" class="contact-btn">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/zimai-gao-21a240201/" target="_blank" class="contact-btn outline">LinkedIn</a>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer>
-      <span class="footer-name">Zimai Gao</span>
-      <span class="footer-note">UX Design (Advanced Interface Prototyping) · 2026 · University of Melbourne</span>
-    </footer>
-
-  </div>
+  <!-- Footer -->
+  <footer>
+    <span class="footer-name">Zimai Gao &mdash; AIP Portfolio 2026</span>
+    <span class="footer-ai">Vibe-coded with Claude AI &mdash; all content and work is human made</span>
+  </footer>
 
   <script src="script.js"></script>
 </body>
